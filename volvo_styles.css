@@ -1,89 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.shopping_tools {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.shopping_tools a {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: lab(98.272 -0.0000298023 0.0000119209);
+}
+
+.shopping_tools a:hover {
+  /*TODO: get the correct color from volvo site*/
+  background-color: #e2e8f0;
+}
+
+.shopping_tools .container_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopping_tools .icon,
+.secondary_hero .icon {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.secondary_hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.secondary_hero article {
+  display: grid;
+  gap: 1rem;
+}
+
+.secondary_hero article img {
+  max-width: 100%;
+}
+
+.secondary_hero .container_link {
+  margin: 1rem 0;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.secondary_hero .container_link a {
+  font-weight: 700;
+}
+
+.secondary_hero article a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 64px;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav_left {
-    display: flex;
-    align-items: center;    
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .nav_left li a {
-    color: rgb(10,10,10);
-    text-decoration-line: none;
+  color: rgb(10, 10, 10);
+  text-decoration-line: none;
 }
 
 .nav_right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .tab {
-    height: 24px;
-    width: 24px;
-    object-fit: cover;
-    object-position: top;
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .volvo {
-    padding-right: 320px;
-    width: 104px;
+  padding-right: 320px;
+  width: 104px;
 }
 
 .images {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .logga_in_icon {
-    padding: 10px;
-    height: 16px;
-    width: 16px;
+  padding: 10px;
+  height: 16px;
+  width: 16px;
 }
 
 .search_icon {
-    transform: scaleX(-1);
-    margin: 10px;
-    height: 24px;
-    width: 24px;
+  transform: scaleX(-1);
+  margin: 10px;
+  height: 24px;
+  width: 24px;
 }
 
-.extra_class:hover{
-    background-color:lightgray ;
+.extra_class:hover {
+  background-color: lightgray;
 }
 
 .extra_class {
-    padding: 10px 5px;
-    transition-duration: 500ms;
-    transition-timing-function: ease;
-    transition-property: background-color;
-    border-radius: 2px;
+  padding: 10px 5px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-property: background-color;
+  border-radius: 2px;
 }
 
 .logga_in_container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logga_in {
-    text-decoration-line: none;
-
+  text-decoration-line: none;
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
