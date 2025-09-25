@@ -69,3 +69,90 @@
   text-decoration-thickness: 2px;
   text-decoration-skip-ink: none;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 64px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav_left li a {
+  color: rgb(10, 10, 10);
+  text-decoration-line: none;
+}
+
+.nav_right {
+  display: flex;
+  align-items: center;
+}
+
+.tab {
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.volvo {
+  padding-right: 320px;
+  width: 104px;
+}
+
+.images {
+  height: 24px;
+  width: 24px;
+}
+
+.logga_in_icon {
+  padding: 10px;
+  height: 16px;
+  width: 16px;
+}
+
+.search_icon {
+  transform: scaleX(-1);
+  margin: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.extra_class:hover {
+  background-color: lightgray;
+}
+
+.extra_class {
+  padding: 10px 5px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-property: background-color;
+  border-radius: 2px;
+}
+
+.logga_in_container {
+  display: flex;
+  align-items: center;
+}
+
+.logga_in {
+  text-decoration-line: none;
+}
