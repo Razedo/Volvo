@@ -7,9 +7,7 @@ h1{
 
 .explore{
     color: white;
-    height: 45vh;
-    margin-top: 20%;
-    margin-left: 30px;
+    margin-left: 2%;
     width: 50%;
 }
 .offers-under
@@ -39,5 +37,6 @@ h1{
     background-position: center;
     display: flex;
     align-items: center;
+    height: 85vh;
     
 }
