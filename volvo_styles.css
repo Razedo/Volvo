@@ -1,71 +1,71 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .shopping_tools {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .shopping_tools a {
-    display: grid;
-    padding: 1rem;
-    gap: 1rem;
-    background-color: lab(98.272 -0.0000298023 0.0000119209);
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: lab(98.272 -0.0000298023 0.0000119209);
 }
 
 .shopping_tools a:hover {
-    /*TODO: get the correct color from volvo site*/
-    background-color: #e2e8f0;
+  /*TODO: get the correct color from volvo site*/
+  background-color: #e2e8f0;
 }
 
 .shopping_tools .container_heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .shopping_tools .icon,
 .secondary_hero .icon {
-    width: 16px;
-    height: 16px;
-    object-fit: cover;
-    object-position: top;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .secondary_hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .secondary_hero article {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .secondary_hero article img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .secondary_hero .container_link {
-    margin: 1rem 0;
-    width: fit-content;
-    display: flex;
-    align-items: center;
+  margin: 1rem 0;
+  width: fit-content;
+  display: flex;
+  align-items: center;
 }
 
 .secondary_hero .container_link a {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .secondary_hero article a:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.2rem;
-    text-decoration-thickness: 2px;
-    text-decoration-skip-ink: none;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
 }
