@@ -28,7 +28,8 @@
     justify-content: space-between;
 }
 
-.shopping_tools .icon {
+.shopping_tools .icon,
+.secondary_hero .icon {
     width: 16px;
     height: 16px;
     object-fit: cover;
@@ -51,6 +52,20 @@
     max-width: 100%;
 }
 
-.secondary_hero article a {
+.secondary_hero .container_link {
     margin: 1rem 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.secondary_hero .container_link a {
+    font-weight: 700;
+}
+
+.secondary_hero article a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
 }
