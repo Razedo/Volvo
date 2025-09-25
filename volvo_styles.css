@@ -3,6 +3,38 @@
     margin: 0;
 }
 
+.shopping_tools {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.shopping_tools a {
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: lab(98.272 -0.0000298023 0.0000119209);
+}
+
+.shopping_tools a:hover {
+    /*TODO: get the correct color from volvo site*/
+    background-color: #e2e8f0;
+}
+
+.shopping_tools .container_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping_tools .icon {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    object-position: top;
+}
+
 .secondary_hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
