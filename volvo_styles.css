@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.secondary_hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.secondary_hero article {
+    display: grid;
+    gap: 1rem;
+}
+
+.secondary_hero article img {
+    max-width: 100%;
+}
+
+.secondary_hero article a {
+    margin: 1rem 0;
+}
